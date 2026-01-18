@@ -83,3 +83,6 @@ I have breifely mentioned the some buttons at the bottom of the app that allow y
 - <i> COPY LAST SQUAWK </i> - Allows you to copy the squawk to enter into 24Scope
 - <i> REMOVE ALL CLEARANCES </i> - Removes all PDCs and clearances. Does not reset the app.
 - <i> QUICK GUIDE </i> - Reminds you of 2 hidden keys you may need when adding clearances.
+
+# Reporting Bugs/Getting In Contact
+If you find any bugs or would like to get in contact with me regarding this software, please contact me via email: dans24software@outlook.com or discord: dan_da_aviator. 
