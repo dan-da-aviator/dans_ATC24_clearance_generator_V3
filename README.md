@@ -1,4 +1,6 @@
 # Dans_ATC24_Clearance_Generator_V3
+Dan's ATC24 Clearance Generator V3 is a software designed to help ground controllers deliver their clearances to other aircraft. 
+
 Introducing Dan's ATC24 Clearance Generator V3! I've had many requests regarding on how I quickly generate my Pre-Departure-Clearances (PDCs) when controlling on ATC24, and this is how! My clearance generator, now at it's version 3 allows controllers to easily generate suitable departure clearances that suit the conditions at hand to reduce workload.
 
 # Supported Airports & SID Data
@@ -16,7 +18,7 @@ The supported airports are as following:
 SID data is used from Aeronav Charts. All of these airports do have available charts over at aeronav for you to use:https://aeronav.space/app
 
 # Installation & Updates
-Downloading the exe file should be all you need, and if required I have added an .ICO file if you need a copy to add as a desktop shortcut.
+Downloading the exe file should be all you need, and if required I have added an .ICO file if you need a copy to add as a desktop shortcut. 
 Please keep in mind that this software is designed for Windows on <b> 100% scaling </b>, as some laptops are set to default at 150%, meaning you will either have to turn it down, or else run it on a PC. 
 
 To update the software simply download the new version and replace the old. Simple as that.
@@ -61,12 +63,10 @@ After clicking <i> EXECUTE AND ADD </i>, a PDC will be automatically copied to y
 ## Custom Data
 Adding custom data is where it gets tricky, but once you understand the logic and meaning, it makes sense. 
 
-When entering a custom destination, you must enter a <b> custom departure </b>
+- When entering a custom departure, you must have the VECTOR/CUSTOM departure method selected
+- When entering a custom departure runway OR destination, you must enter a custom departure
 
-When entering a custom departure runway, you must enter a <b> custom departure </b>
-
-And this is how it is validated to make sure everything stays correct. And following the obvious, you must have the <i> VECTOR/CUSTOM </i> departure method selected.
-To enter a custom destination, you must first enter <i> CUST </i> in the destination field to allow the custom destination to be taken in. 
+And this is how it is validated to make sure everything stays correct. If you disregard multiple rules at one time, the app will prompt you to correct each 1 by 1 until every required field is filled.
 
 ## Close Desintaitons
 Some destinations that are extremely close to the airport (eg. IGAR from IRFD), may require custom departures to be entered. Or else the vector departure method to be selected instead if you are looking for a SID. Any desintaitons of the same origin airport (eg. IRFD to IRFD) will require a custom departure. (all of this will be alerted to you anyway if something isn't right)
@@ -74,7 +74,7 @@ Some destinations that are extremely close to the airport (eg. IGAR from IRFD), 
 ## PDCs And Custom Entries
 My app comes with 2 formats of PDCs, the SID and the vector.
 When using vectors or SIDs, it is easy to find a regular format to put everything, for example: <i> Cleared {destination} via radar vectors. After departure runway {departureRunway} turn {direction} heading {heading} degrees. </i>
-Although when using custom data the format is unpredictable. You <i> can </i> generate a PDC, although it will be in the vector format by default and may not make sense depending on what your wrote. And that is why I reccomend you do not use PDCs with custom entries, specifically the custom departures, instead revert to over voice.
+When using custom data, the PDC will be become unavailable. If you attempt to copy the PDC from the custom clearance, then you will be given a placeholder informing you that you must revert to voice to give clearance.
 
 While custom entries may prevent you from using PDCs as they are jumbled up, it will not prevent the format from looking organized on the clearances table.
 
@@ -88,5 +88,8 @@ I have breifely mentioned the some buttons at the bottom of the app that allow y
 - <i> REMOVE ALL CLEARANCES </i> - Removes all PDCs and clearances. Does not reset the app.
 - <i> QUICK GUIDE </i> - Reminds you of 2 hidden keys you may need when adding clearances.
 
+## Colour Customization
+As of V3.0.6 you can now customize the spacer colours! Enjoy!
+
 # Reporting Bugs/Getting In Contact
-If you find any bugs or would like to get in contact with me regarding this software, please contact me via email: dans24software@outlook.com or discord: dan_da_aviator. 
+Please be aware that I am relatively new to software development, and I am just here because I enjoy doing so in my free time, so if you find any bugs or would like to get in contact with me regarding this software, please contact me via email: dans24software@outlook.com or discord: dan_da_aviator. 
