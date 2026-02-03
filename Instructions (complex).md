@@ -5,7 +5,7 @@ Before reading any further, please first read the basic instructions on how to u
 ## Introduction
 This complex instructions manual will cover how to enter custom values into the clearance generator. The validations system behind is relatively intricate to understand, and that is why there is an additional manual covering it.
 
-<b> The following text is decoded into words, a diagram of how each field impacts each other is included towards the bottom to make understanding simpler </b>
+ ## The following text is decoded into words, a diagram of how each field impacts each other is included towards the bottom to make understanding simpler 
 
 ## Custom Departure
 Entering a custom departure does not affect any other fields, the only thing required is that the VECTOR/CUSTOM departure method to be selected.
