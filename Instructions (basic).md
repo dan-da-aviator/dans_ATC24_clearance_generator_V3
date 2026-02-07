@@ -1,7 +1,7 @@
 # Dan's ATC24 Clearance Generator V3 - Instructions (basic)
 ## Airport Setup
 <b> Airport </b><br>
-Before you begin adding clearances to the table, you must first setup the airport. Dan's ATC24 Clearance Generator V3 supports a total of 9 airports. In order for the software to properly detect what airport you are entering, you must enter the full ICAO as shown below:
+Before you begin adding clearances to the table, you must first setup the airport. Dan's ATC24 Clearance Generator V3 supports a total of 9 airports. In order for the software to properly detect what airport you are entering, you must enter the full ICAO as shown below: <br>
 - IRFD / Greater Rockford
 - IMLR / Mellor
 - ILAR / Larnaca
