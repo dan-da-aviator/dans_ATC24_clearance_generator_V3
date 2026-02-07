@@ -1,7 +1,7 @@
 # Dans ATC24 Clearance Generator V3
 ## Update Notifications
 For notifications on future updates, as well as other software created by me, check out the discord
-Dan's ATC24 Software - https://discord.gg/Euf3Rq78UX
+Dan's ATC24 Software - https://discord.gg/Euf3Rq78UX <br>
 24Hub - https://discord.gg/TKHPtvAz2q
 
 ## Introduction
